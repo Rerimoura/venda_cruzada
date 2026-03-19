@@ -1,0 +1,26 @@
+# Credenciais — NUNCA versionar
+.streamlit/secrets.toml
+secrets.toml
+*.env
+.env
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Exportações geradas pelo app
+*.xlsx
+*.csv
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
